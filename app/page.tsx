@@ -285,7 +285,7 @@ export default async function HomePage() {
 
           <Link
             href="/contact"
-            className="mt-6 inline-flex rounded-full bg-[#473C38] px-5 py-3 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:bg-[#362c29]"
+            className="mt-6 inline-flex rounded-full bg-[#473C38] px-5 py-3 text-sm font-semibold !text-white transition duration-300 hover:-translate-y-0.5 hover:bg-[#362c29]"
           >
             Start a Commission
           </Link>
