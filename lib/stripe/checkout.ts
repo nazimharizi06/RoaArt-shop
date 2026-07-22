@@ -37,8 +37,8 @@ export async function createCheckoutSession({
         quantity,
       },
     ],
-    success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/success?artwork_id=${artworkId}`,
-    cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/shop`,
+    success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://roaart.shop'}/success?artwork_id=${artworkId}`,
+    cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://roaart.shop'}/shop`,
     metadata: {
       artwork_id: artworkId,
     },

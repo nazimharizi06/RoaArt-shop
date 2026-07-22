@@ -83,7 +83,7 @@ export async function POST(request: Request) {
 
     const siteUrl =
       process.env.NEXT_PUBLIC_SITE_URL ||
-      "http://localhost:3000";
+      "https://roaart.shop";
 
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
