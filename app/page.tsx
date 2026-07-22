@@ -55,6 +55,12 @@ export default async function HomePage() {
               >
                 Cart
               </Link>
+              <Link
+                href="/admin"
+                className="rounded-full border border-[#B88A43] px-4 py-2 font-semibold text-[#B88A43] transition hover:bg-[#B88A43] hover:text-white"
+              >   
+                Admin Login
+              </Link>
             </nav>
           </div>
         </header>
