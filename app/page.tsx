@@ -233,7 +233,15 @@ export default async function HomePage() {
           className="mt-16 grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center"
         >
           <div className="overflow-hidden rounded-[2rem] bg-[#F5ECE6] p-4 shadow-[0_16px_40px_rgba(71,60,56,0.08)]">
-            <div className="aspect-[4/5] rounded-[1.5rem] bg-[radial-gradient(circle_at_top,_#fffdf8,_#eddccf_52%,_#cfb19d_100%)]" />
+            <div className="relative aspect-[4/5] rounded-[1.5rem] bg-white">
+              <Image
+                src="/icon.png"
+                alt="RoaArt Logo"
+                fill
+                className="object-contain p-8"
+                sizes="(max-width: 1024px) 100vw, 40vw"
+              />
+            </div>
           </div>
 
           <div className="rounded-[2rem] bg-white/70 p-7 sm:p-8 lg:p-10">
