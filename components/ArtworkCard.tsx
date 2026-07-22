@@ -14,7 +14,7 @@ export function ArtworkCard({ artwork }: { artwork: ArtworkRecord }) {
             alt={artwork.title}
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
-            className="object-cover"
+            className="object-contain p-4"
           />
         ) : null}
         {isSoldOut ? (
